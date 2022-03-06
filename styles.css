@@ -1,0 +1,82 @@
+.h1, h2, h3, h4, h5, h6, p, span, a{
+    font-family: sans-serif;
+}
+
+a{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.zoom {
+    transition: transform .2s;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+	}
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	}
+	a:link {
+		text-decoration: none;
+	}
+	
+	a:visited {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+		color: black !important; 
+	}
+	
+	a:active {
+		text-decoration: underline;
+	}
+
+	.banner{
+		overflow: hidden;
+	}
+
+	.body-img{
+		background-image: url("/Assets/home-5.jpg");
+		height: 100vh;
+		background-position: left center;
+		background-size: cover;
+	}
+
+	.border-bb{
+		border: none;
+		border-bottom: 1px solid rgb(206, 196, 196);
+		border-radius: 0px;
+	}
+
+	.border-bb:hover{
+		border: none;
+		border-bottom: 1px solid black;
+		border-radius: 0px;
+	}
+
+	.svg-icon{
+		width: 1.5rem;
+		height: 1.5rem;
+		color: black;
+	}
+
+li{
+	list-style-type: none;
+	margin-right: 10px;
+	}
+
+li:last-child{
+	margin-right: 0px;
+	}
+
+.img-text{
+	padding-top: 30vh;
+	padding-left: 100vh;
+}
+
+.ended{
+	display: flex;
+}
